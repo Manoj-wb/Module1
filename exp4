@@ -1,0 +1,33 @@
+EX NO 4 : C PROGRAM TO CHECK ElIGIBILITY FOR MARRIAGE (AGE >=21).
+DATE : 30-04-2025
+AIM:
+To write a program to check eligibility for marriage using simple if statement.
+
+ALGORITHM:
+1. Start.
+2. Declare a variable value of type char.
+3. Prompt the user to enter a value.
+4. Read the value using scanf.
+5. Check eligible for marriage.
+6. If age >= 21, print "Eligible".
+7. If false, print " Not Eligible".
+8. End.
+
+PROGRAM:
+#include<stdio.h>
+int main(){
+int a;
+scanf("%d", &a);
+if(a>=21)
+{
+printf("Eligible");
+}
+return 0;
+}
+
+Developed by : Manoj S
+Register Number : 212223060154
+Input: 21
+Output: Eligible
+Result : 
+Thus, the program is executed and verified successfully.
